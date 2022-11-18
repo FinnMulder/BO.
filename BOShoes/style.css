@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: sans-serif; 
+    display: inline-block;
+    border-radius: 2rem;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #ff7e1e;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.shoe{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar ul{
+    padding-top: 2rem;
+    position: relative;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    transform: scaleX(1);
+}
+
+.navbar  ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+
+.navbar  ul li a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 10px;
+    color:#4b484f;
+}
+
+.navbar ul li a:hover
+{
+    display: inline-block;
+    position: relative;
+    background: #eee;
+}
+
+.navbar .content
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.navbar ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #8253a8;
+ 
+  }
+  
+  .navbar ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .button{
+    position: relative;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    background-color: darkgrey;
+    border-radius: 2rem;
+    color: #eee;
+  }
+
+  .headertext{
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: 560;
+    font-size: 3rem;
+    padding-left: 0rem;
+    color: #4b484f;
+  }
+
+  .shoeimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    max-width: 70%;
+    background: rgb(193, 209, 210);
+    margin: 10em auto;
+    filter: drop-shadow(10px 10px 4px darkgray);
+    border-radius: 2rem;
+  }
+  .shoeimg img{
+        max-width: 10em;
+        transition: 1s;
+        border-radius: 1rem;
+  }
+  .shoeimg img:hover {
+    max-width: 20em;
+    filter: drop-shadow(0 0 0.75rem black); 
+}
+
+.moments{
+    padding-top: 7rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    font-weight: 560;
+    font-size: 1.5rem;
+    color: #4b484f;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-left: 70rem;
+    font-family: sans-serif;
+    color: #4b484f;
+    inline-size: 150px;
+    border-radius: 30px;
+}
+
+.work img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 2rem;
+}
+
+.articles{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 21rem;
+    font-size: 3rem;
+    color: #4b484f;
+}
+
+.articles img{
+    width:100rem;
+    padding: 3rem;
+}
+
+.stories{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15rem;
+    font-size: 3rem;
+    color: #4b484f;
+}
+
+
+
+
+
+  
+
+  
+ 
